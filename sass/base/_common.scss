@@ -1,19 +1,25 @@
 body {
-    font-family: "Roboto", sans-serif;
-    color: var(--main-text-color);
-    background-color: var(--page-background-color);
+  font-family: "Roboto", sans-serif;
+  color: var(--main-text-color);
+  background-color: var(--page-background-color);
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
 }
